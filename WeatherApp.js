@@ -52,7 +52,7 @@ const icon= `http://openweathermap.org/img/wn/${data.weather[0].icon}.png`;
     img.src = icon;
 
 
-// Using catch method with a different explanation incase if they put wrong name of the city or if the  
+// Using catch method with a different explanation incase if user put wrong name of the city or misstype or  
 //if the user types some irrelevant text!  
 
 }).catch(function (error) 
